@@ -6,13 +6,13 @@
 </template>
 
 <script>
-import './Styles/app.scss'
+import "./styles/app.scss";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    Navbar: () => import('./Components/Navbar.vue')
-  }
-}
+    Navbar: () => import("./components/Navbar.vue"),
+  },
+};
 </script>
 
